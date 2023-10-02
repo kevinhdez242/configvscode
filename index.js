@@ -13,7 +13,6 @@ function countdown() {
     if (i >= 0) {
       writeCountdown(i);
       i--;
-      
       setTimeout(() => {
         waitOneSecAndCount();
       }, 1000);
